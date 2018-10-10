@@ -21,14 +21,6 @@
     <!-- 在SessionFactory创建时，自动检查数据库结构，或者将数据库schema的DDL导出到数据库. 使用 create-drop时,在显式关闭SessionFactory时，将drop掉数据库schema. 取值 validate | update | create | create -->
     <property name="hbm2ddl.auto">update</property>
 
-    <property name="hibernate.cache.region.factory_class">org.hibernate.cache.redis.SingletonRedisRegionFactory
-    </property>
-    <property name="cache.use_second_level_cache">false</property>
-    <property name="cache.use_query_cache">false</property>
-    <property name="cache.region_prefix">asuscache</property>
-    <property name="cache.use_structured_entries">true</property>
-    <property name="cache.provider_configuration_file_resource_path">hibernate-redis.properties</property>
-
     <property name="hibernate.connection.release_mode">after_transaction</property>
 
     <!--映射文件 -->
