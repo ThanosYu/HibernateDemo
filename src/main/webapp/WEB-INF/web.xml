@@ -74,7 +74,7 @@
       <param-name>jersey.config.server.provider.packages</param-name>
       <param-value>com.thanos.controller</param-value>
     </init-param>
-    <!-- 指定当Web应用启动时，装载Servlet的次序。 当值为正数或零时：Servlet容器先加载数值小的servlet，再依次加载其他数值大的servlet. 当值为负或未定义：Servlet容器将在Web客户首次访问这个servlet时加载它 -->
+    <!-- 指定当Web应用启动时，装载Servlet的次序。当值为正数或零时：Servlet容器先加载数值小的servlet，再依次加载其他数值大的servlet. 当值为负或未定义：Servlet容器将在Web客户首次访问这个servlet时加载它 -->
     <load-on-startup>1</load-on-startup>
   </servlet>
   <!-- 用来定义servlet所对应的URL，包含两个子元素 -->
