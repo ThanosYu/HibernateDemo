@@ -84,4 +84,20 @@
     <!--指定servlet所对应的URL -->
     <url-pattern>/rs/*</url-pattern>
   </servlet-mapping>
+
+  <!--<servlet>-->
+    <!--<servlet-name>springMVC</servlet-name>-->
+    <!--<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>-->
+    <!--<init-param>-->
+      <!--&lt;!&ndash;resources标注文件夹下需要新建一个spring文件夹&ndash;&gt;-->
+      <!--<param-name>contextConfigLocation</param-name>-->
+      <!--<param-value>classpath:spring/spring-mvc.xml</param-value>-->
+    <!--</init-param>-->
+    <!--<load-on-startup>1</load-on-startup>-->
+    <!--<async-supported>true</async-supported>-->
+  <!--</servlet>-->
+  <!--<servlet-mapping>-->
+    <!--<servlet-name>springMVC</servlet-name>-->
+    <!--<url-pattern>/</url-pattern>-->
+  <!--</servlet-mapping>-->
 </web-app>

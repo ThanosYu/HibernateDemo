@@ -56,6 +56,7 @@ public class O2OCategoryServiceImpl implements O2OCategoryService {
     }
 
     @Override
+    @Transactional(readOnly = true,rollbackFor = Exception.class)
     public List<O2OCategory> getAll(){
         Query query = sessionFactory.getCurrentSession().getNamedQuery("O2OCategory.all");
         List<O2OCategory> list = query.list();
