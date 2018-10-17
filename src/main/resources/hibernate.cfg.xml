@@ -27,5 +27,6 @@
     <mapping class="com.thanos.model.O2OBanner"/>
     <mapping class="com.thanos.model.O2OCategory"/>
     <mapping class="com.thanos.model.O2OModule"/>
+    <mapping class="com.thanos.model.User"/>
   </session-factory>
 </hibernate-configuration>
